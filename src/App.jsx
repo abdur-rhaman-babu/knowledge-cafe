@@ -19,8 +19,13 @@ const App = () => {
   };
 
   const handleReadingTime = (time, id) => {
-    const newReadingTime = readingTime + time;
-      setReadingTime(newReadingTime);
+    if(bookmarks.length){
+      const newReadingTime = readingTime + time;
+        setReadingTime(newReadingTime);
+    }else{
+      alert('No added to bookmark')
+    }
+    
     const remainingBookmark = bookmarks.filter((bookmark)=> bookmark.id !== id)
     setBookmarks(remainingBookmark)
     removeCartFormLS(id)
