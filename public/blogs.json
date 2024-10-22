@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.postimg.cc/R0fHbsRk/artificial-intellicence.jpg",
+      "title": "The Rise of AI in Daily Life",
+      "author": "John Doe",
+      "author_img": "https://i.postimg.cc/kXkj1LJv/author-1.png",
+      "posted_date": "2024-10-20",
+      "reading_time": 8,
+      "hashtags": ["#AI", "#Technology", "#Future"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.postimg.cc/bNBSYcFX/urban-life.jpg",
+      "title": "Sustainable Living in Urban Areas",
+      "author": "Jane Smith",
+      "author_img": "https://i.postimg.cc/PJ0M78j5/author-10.jpg",
+      "posted_date": "2024-10-18",
+      "reading_time": 5,
+      "hashtags": ["#Sustainability", "#UrbanLiving", "#EcoFriendly"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.postimg.cc/NMcHh6C5/digital-nomad.jpg",
+      "title": "Top 10 Destinations for Digital Nomads",
+      "author": "Alex Johnson",
+      "author_img": "https://i.postimg.cc/tCVkxD3Z/author-2.png",
+      "posted_date": "2024-10-17",
+      "reading_time": 6,
+      "hashtags": ["#Travel", "#DigitalNomads", "#RemoteWork"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.postimg.cc/fTL0hTCj/python.jpg",
+      "title": "Mastering Python for Data Science",
+      "author": "Emily Davis",
+      "author_img": "https://i.postimg.cc/wjLwSF38/author-3.jpg",
+      "posted_date": "2024-10-15",
+      "reading_time": 12,
+      "hashtags": ["#Python", "#DataScience", "#Programming"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.postimg.cc/kMwtZtQg/person-brand.jpg",
+      "title": "How to Build a Personal Brand Online",
+      "author": "Michael Lee",
+      "author_img": "https://i.postimg.cc/SK4gq8zX/author-4.jpg",
+      "posted_date": "2024-10-13",
+      "reading_time": 7,
+      "hashtags": ["#PersonalBrand", "#SocialMedia", "#Marketing"]
+    },
+    {
+      "id": 6,
+      "cover": "https://i.postimg.cc/gJH6Gx14/beginer-guide.jpg",
+      "title": "Investing 101: A Beginner's Guide",
+      "author": "Sophia Martinez",
+      "author_img": "https://i.postimg.cc/VNFDN6jK/author-5.jpg",
+      "posted_date": "2024-10-12",
+      "reading_time": 10,
+      "hashtags": ["#Investing", "#Finance", "#MoneyManagement"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.postimg.cc/5yPYFZ4C/maditation.jpg",
+      "title": "The Art of Mindful Meditation",
+      "author": "Chris Evans",
+      "author_img": "https://i.postimg.cc/76YXJk9w/author-6.jpg",
+      "posted_date": "2024-10-10",
+      "reading_time": 4,
+      "hashtags": ["#Meditation", "#Mindfulness", "#Wellbeing"]
+    },
+    {
+      "id": 8,
+      "cover": "https://i.postimg.cc/nh9jCR6X/vehicles.jpg",
+      "title": "Future of Electric Vehicles",
+      "author": "Rachel Green",
+      "author_img": "https://i.postimg.cc/Jn6xb2YJ/author-7.jpg",
+      "posted_date": "2024-10-08",
+      "reading_time": 9,
+      "hashtags": ["#ElectricVehicles", "#Technology", "#FutureTrends"]
+    },
+    {
+      "id": 9,
+      "cover": "https://i.postimg.cc/T1251R6x/eating.jpg",
+      "title": "Healthy Eating on a Budget",
+      "author": "David Thompson",
+      "author_img": "https://i.postimg.cc/cCvmTBPz/author-8.jpg",
+      "posted_date": "2024-10-05",
+      "reading_time": 6,
+      "hashtags": ["#HealthyEating", "#Budget", "#Nutrition"]
+    },
+    {
+      "id": 10,
+      "cover": "https://i.postimg.cc/R0r3f1BX/writing.jpg",
+      "title": "Creative Writing: Tips for Beginners",
+      "author": "Laura Wilson",
+      "author_img": "https://i.postimg.cc/mZnVkKHW/author-9.jpg",
+      "posted_date": "2024-10-03",
+      "reading_time": 5,
+      "hashtags": ["#Writing", "#Creativity", "#Storytelling"]
+    }
+  ]
+  
