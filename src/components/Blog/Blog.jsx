@@ -10,6 +10,7 @@ const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
     reading_time,
     title,
     hashtags,
+    id
   } = blog;
   return (
     <div>
@@ -38,7 +39,7 @@ const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
           <p key={i}>{tag}</p>
         ))}
       </div>
-      <button onClick={()=>handleReadingTime(reading_time)} className="text-xl text-indigo-600 underline">
+      <button onClick={()=>handleReadingTime(reading_time, id)} className="text-xl text-indigo-600 underline">
        Mark as read
       </button>
       </div>

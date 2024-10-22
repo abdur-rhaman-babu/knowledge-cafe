@@ -2,7 +2,7 @@ import { useState } from "react";
 import Blogs from "./components/Blogs/Blogs";
 import Bookmarks from "./components/Bookmarks/Bookmarks";
 import Header from "./components/Header/Header";
-import { addToLS } from "./Utils/localStorage";
+import { addToLS, removeCartFormLS } from "./Utils/localStorage";
 
 const App = () => {
   const [bookmarks, setBookmarks] = useState([]);
@@ -18,9 +18,12 @@ const App = () => {
     }
   };
 
-  const handleReadingTime = (time) => {
+  const handleReadingTime = (time, id) => {
     const newReadingTime = readingTime + time;
       setReadingTime(newReadingTime);
+    const remainingBookmark = bookmarks.filter((bookmark)=> bookmark.id !== id)
+    setBookmarks(remainingBookmark)
+    removeCartFormLS(id)
   };
 
   return (
